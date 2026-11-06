@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr"><head><title>Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스</title><meta charset="utf-8"/><link rel="preload" href="../index-bb6c1746.css" as="style"/><link rel="preload" href="../prescript-2bfc6315.js" as="script"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted Grotesk:wght@400;700&amp;family=Source Sans Pro:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="하네스 엔지니어링 위키"/><meta property="og:title" content="Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스"/><meta name="twitter:description" content="Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스 가볍다 = 기본 기능이 적고(스킬 4개 + 역할 4개) 흐름이 하나라는 뜻이다. 작업 시간을 뜻하지 않는다. 왕초보 설명 이게 뭐야? gjc(가재코드)는 터미널에서 쓰는 AI 코딩 도우미다."/><meta property="og:description" content="Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스 가볍다 = 기본 기능이 적고(스킬 4개 + 역할 4개) 흐름이 하나라는 뜻이다. 작업 시간을 뜻하지 않는다. 왕초보 설명 이게 뭐야? gjc(가재코드)는 터미널에서 쓰는 AI 코딩 도우미다."/><meta property="og:image:alt" content="Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스 가볍다 = 기본 기능이 적고(스킬 4개 + 역할 4개) 흐름이 하나라는 뜻이다. 작업 시간을 뜻하지 않는다. 왕초보 설명 이게 뭐야? gjc(가재코드)는 터미널에서 쓰는 AI 코딩 도우미다."/><meta property="twitter:domain" content="chaeunglim.github.io/wiki"/><meta property="og:url" content="https://chaeunglim.github.io/wiki/harness/gajae-code"/><meta property="twitter:url" content="https://chaeunglim.github.io/wiki/harness/gajae-code"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스 가볍다 = 기본 기능이 적고(스킬 4개 + 역할 4개) 흐름이 하나라는 뜻이다. 작업 시간을 뜻하지 않는다. 왕초보 설명 이게 뭐야? gjc(가재코드)는 터미널에서 쓰는 AI 코딩 도우미다."/><meta name="generator" content="Quartz"/><link href="../index-bb6c1746.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-735924e0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-589c1cea.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-bbc3f7c0.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-2911f5d1.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-e427079e.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-53b25b2b.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-c93c6a44.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-8a06014f.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-77d6a441.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-6ee21cee.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-1ea6ad18.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-34bdfded.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-788c9ca3.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-642859cd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-4abc06bd.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-274a3dfe.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-94cb6c84.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-58d5ff56.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../component-7262b5a7.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-11d41004.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-26a99b87.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-a5c806d2.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-6bd36952.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-9857b007.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="../static/resource-style-d3a1a224.css" rel="stylesheet" type="text/css" data-persist="true"/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript-2bfc6315.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted%20Grotesk%3Awght%40400%3B700&amp;family=Source%20Sans%20Pro%3Aital%2Cwght%400%2C400%3B0%2C600%3B1%2C400%3B1%2C600&amp;family=IBM%20Plex%20Mono%3Awght%40400%3B600&amp;display=swap"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://chaeunglim.github.io/wiki/harness/gajae-code-og-image.webp"/><meta property="og:image:url" content="https://chaeunglim.github.io/wiki/harness/gajae-code-og-image.webp"/><meta name="twitter:image" content="https://chaeunglim.github.io/wiki/harness/gajae-code-og-image.webp"/><meta property="og:image:type" content="image/webp"/></head><body data-slug="harness/gajae-code" data-basepath="/wiki"><div id="quartz-root" class="page" data-frame="default"><div id="quartz-body"><div class="left sidebar"><h2 class="page-title"><a href="..">하네스 엔지니어링 위키</a></h2><div class="mobile-only"><div class="spacer"></div></div><div class="flex-component" style="flex-direction: row; flex-wrap: nowrap; gap: 0.5rem;"><div style="flex-grow: 1; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><div class="search"><button class="search-button" aria-label="검색" aria-expanded="false"><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title>Search</title><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg><p>검색</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="검색어를 입력하세요" placeholder="검색어를 입력하세요"/><div class="search-layout" data-preview="true" data-field-priority="[&quot;title&quot;,&quot;content&quot;,&quot;tags&quot;]"></div></div></div></div></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="darkmode" aria-label="다크 모드"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35" xml:space="preserve" aria-label="다크 모드"><title>다크 모드</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100" xml:space="preserve" aria-label="라이트 모드"><title>라이트 모드</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></button></div><div style="flex-grow: 0; flex-shrink: 1; flex-basis: auto; order: 0; align-self: center; justify-self: center;"><button class="readermode" aria-label="리더 모드"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" class="readerIcon" fill="currentColor" stroke="currentColor" stroke-width="0.2" stroke-linecap="round" stroke-linejoin="round" width="64px" height="64px" viewBox="0 0 24 24" aria-label="리더 모드"><title>리더 모드</title><g transform="translate(-1.8, -1.8) scale(1.15, 1.2)"><path d="M8.9891247,2.5 C10.1384702,2.5 11.2209868,2.96705384 12.0049645,3.76669482 C12.7883914,2.96705384 13.8709081,2.5 15.0202536,2.5 L18.7549359,2.5 C19.1691495,2.5 19.5049359,2.83578644 19.5049359,3.25 L19.5046891,4.004 L21.2546891,4.00457396 C21.6343849,4.00457396 21.9481801,4.28672784 21.9978425,4.6528034 L22.0046891,4.75457396 L22.0046891,20.25 C22.0046891,20.6296958 21.7225353,20.943491 21.3564597,20.9931534 L21.2546891,21 L2.75468914,21 C2.37499337,21 2.06119817,20.7178461 2.01153575,20.3517706 L2.00468914,20.25 L2.00468914,4.75457396 C2.00468914,4.37487819 2.28684302,4.061083 2.65291858,4.01142057 L2.75468914,4.00457396 L4.50368914,4.004 L4.50444233,3.25 C4.50444233,2.87030423 4.78659621,2.55650904 5.15267177,2.50684662 L5.25444233,2.5 L8.9891247,2.5 Z M4.50368914,5.504 L3.50468914,5.504 L3.50468914,19.5 L10.9478955,19.4998273 C10.4513189,18.9207296 9.73864328,18.5588115 8.96709342,18.5065584 L8.77307039,18.5 L5.25444233,18.5 C4.87474657,18.5 4.56095137,18.2178461 4.51128895,17.8517706 L4.50444233,17.75 L4.50368914,5.504 Z M19.5049359,17.75 C19.5049359,18.1642136 19.1691495,18.5 18.7549359,18.5 L15.2363079,18.5 C14.3910149,18.5 13.5994408,18.8724714 13.0614828,19.4998273 L20.5046891,19.5 L20.5046891,5.504 L19.5046891,5.504 L19.5049359,17.75 Z M18.0059359,3.999 L15.0202536,4 L14.8259077,4.00692283 C13.9889509,4.06666544 13.2254227,4.50975805 12.7549359,5.212 L12.7549359,17.777 L12.7782651,17.7601316 C13.4923805,17.2719483 14.3447024,17 15.2363079,17 L18.0059359,16.999 L18.0056891,4.798 L18.0033792,4.75457396 L18.0056891,4.71 L18.0059359,3.999 Z M8.9891247,4 L6.00368914,3.999 L6.00599909,4.75457396 L6.00599909,4.75457396 L6.00368914,4.783 L6.00368914,16.999 L8.77307039,17 C9.57551536,17 10.3461406,17.2202781 11.0128313,17.6202194 L11.2536891,17.776 L11.2536891,5.211 C10.8200889,4.56369974 10.1361548,4.13636104 9.37521067,4.02745763 L9.18347055,4.00692283 L8.9891247,4 Z"></path></g></svg></button></div></div><div class="explorer nav-files-container" data-behavior="link" data-collapsed="collapsed" data-savestate="true" data-data-fns="{&quot;order&quot;:[&quot;filter&quot;,&quot;map&quot;,&quot;sort&quot;],&quot;sortFn&quot;:&quot;(a2, b2) => {\n    if (!a2.isFolder &amp;&amp; !b2.isFolder || a2.isFolder &amp;&amp; b2.isFolder) {\n      return (a2.displayName || \&quot;\&quot;).localeCompare(b2.displayName || \&quot;\&quot;, void 0, {\n        numeric: true,\n        sensitivity: \&quot;base\&quot;\n      });\n    }\n    if (!a2.isFolder &amp;&amp; b2.isFolder) {\n      return 1;\n    }\n    return -1;\n  }&quot;,&quot;filterFn&quot;:&quot;(node) => node.slugSegment !== \&quot;tags\&quot;&quot;,&quot;mapFn&quot;:&quot;(node) => {\n    return node;\n  }&quot;}"><button type="button" class="explorer-toggle mobile-explorer hide-until-loaded" data-mobile="true" aria-controls="explorer-24" aria-label="탐색기"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide-menu"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><button type="button" class="title-button explorer-toggle desktop-explorer" data-mobile="false" aria-expanded="true"><h2>탐색기</h2><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="explorer-24" class="explorer-content" aria-expanded="false" role="group"><ul class="explorer-ul overflow" id="list-0"><li class="overflow-end"></li></ul></div><template id="template-file"><li><a href="#" class="nav-file-title tree-item-self"></a></li></template><template id="template-folder"><li><div class="folder-container nav-folder-title tree-item-self"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="5 8 14 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="folder-icon nav-folder-collapse-indicator collapse-icon"><polyline points="6 9 12 15 18 9"></polyline></svg><div><button class="folder-button"><span class="folder-title"></span></button></div></div><div class="folder-outer"><ul class="content tree-item-children"></ul></div></li></template></div></div><div class="center"><div class="page-header"><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../harness/">harness</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스</a></div></nav><h1 class="article-title">Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스</h1><details class="note-properties metadata-container" open data-collapsed="false"><summary class="note-properties-header"><span class="note-properties-title">Properties</span><span class="note-properties-count">2</span></summary><table class="note-properties-table"><tbody><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">tags</td><td class="note-properties-value metadata-property-value"><span class="note-properties-tags"><a href="../tags/type/harness" class="internal internal-link tag-link">type/harness</a><span class="note-properties-separator">, </span><a href="../tags/topic/loop-engineering" class="internal internal-link tag-link">topic/loop-engineering</a><span class="note-properties-separator">, </span><a href="../tags/topic/role-separation" class="internal internal-link tag-link">topic/role-separation</a><span class="note-properties-separator">, </span><a href="../tags/topic/verification" class="internal internal-link tag-link">topic/verification</a><span class="note-properties-separator">, </span><a href="../tags/topic/context-continuity" class="internal internal-link tag-link">topic/context-continuity</a></span></td></tr><tr class="note-properties-row metadata-property"><td class="note-properties-key metadata-property-key">aliases</td><td class="note-properties-value metadata-property-value"><span class="note-properties-list"><span class="note-properties-text">가재코드</span><span class="note-properties-separator">, </span><span class="note-properties-text">gjc</span><span class="note-properties-separator">, </span><span class="note-properties-text">Gajae-Code</span><span class="note-properties-separator">, </span><span class="note-properties-text">gajae 하네스</span></span></td></tr></tbody></table></details><p show-comma="true" class="content-meta"><time datetime="2026-11-05T15:00:00.000Z">2026년 11월 06일</time><span>24 min read</span></p></div></div><article class="popover-hint"><div class="markdown-preview-view markdown-rendered"><h1 id="gajae-codegjc-계획-먼저-증거로-끝내는-가벼운-랄프톤-하네스">Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#gajae-codegjc-계획-먼저-증거로-끝내는-가벼운-랄프톤-하네스" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<blockquote>
+<p>가볍다 = 기본 기능이 적고(스킬 4개 + 역할 4개) 흐름이 하나라는 뜻이다. 작업 시간을 뜻하지 않는다.</p>
+</blockquote>
+<h2 id="왕초보-설명">왕초보 설명<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#왕초보-설명" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li><strong>이게 뭐야?</strong> <code>gjc</code>(가재코드)는 터미널에서 쓰는 AI 코딩 도우미다. “이거 고쳐줘”라고 하면 코드를 읽고, 계획하고, 고치고, 제대로 됐는지 확인까지 한다. Claude, ChatGPT, Gemini 같은 AI를 <strong>이미 내고 있는 월 구독</strong>으로 연결해 쓴다.</li>
+<li><strong>하네스로서 특징은?</strong> “바로 고치지 말고 먼저 묻고, 계획하고, 검토받은 다음 고친다.” 그리고 “다 했어요”를 말이 아니라 <strong>증거 기록</strong>으로 끝낸다.</li>
+<li><strong>랄프톤이 뭐야?</strong> 랄프톤(Ralph-thon)은 “Ralph 루프”를 쓰는 해커톤을 부르는 말이다. <a href="../concepts/ralph-loop" class="internal internal-link alias" data-slug="concepts/ralph-loop">Ralph 루프</a>는 AI에게 목표를 주고 <strong>끝날 때까지 스스로 반복</strong>(만들기 → 확인 → 고치기)하게 하는 방식이다. gjc에는 <code>ralph</code>라는 명령이 없다. 대신 <code>deep-interview → ralplan → ultragoal</code> 세 단계와 자동 넘김 설정으로 같은 일을 한다.</li>
+<li><strong>나는 뭘 하면 돼?</strong> 처음엔 아래 세 줄만 기억하면 된다.</li>
+</ul>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="text" data-theme="github-light github-dark"><code data-language="text" data-theme="github-light github-dark" style="display:grid;"><span data-line><span>/skill:deep-interview 하고 싶은 일을 대충 적기     ← AI가 질문하며 요구사항을 정리 (코드 안 건드림)</span></span>
+<span data-line><span>/skill:ralplan                                      ← 계획 → 구조 검토 → 비판 (코드 안 건드림)</span></span>
+<span data-line><span>&quot;Approve execution via ultragoal&quot; 선택              ← 승인하면 목표별로 끝까지 실행</span></span></code></pre></figure>
+<ul>
+<li><strong>주의:</strong> 실행 단계(ultragoal)는 git 커밋 기록으로 “무엇이 바뀌었는지”를 계산한다. git을 쓰지 않거나 커밋이 하나도 없는 폴더에서는 목표를 “완료”로 기록하지 못하고 막힌다. 오래 돌릴 때는 <code>gjc --tmux --worktree 작업이름</code>으로 원본과 분리된 폴더에서 돌린다.</li>
+</ul>
+<h2 id="구조-요약">구조 요약<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#구조-요약" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="한-장-그림">한 장 그림<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#한-장-그림" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<figure data-rehype-pretty-code-figure><pre tabindex="0" data-language="text" data-theme="github-light github-dark"><code data-language="text" data-theme="github-light github-dark" style="display:grid;"><span data-line><span> 사람: 대충 적은 요구</span></span>
+<span data-line><span>        │</span></span>
+<span data-line><span>        ▼</span></span>
+<span data-line><span> ① deep-interview ── 질문 → &quot;모호함 점수&quot; 계산 → 기준 이하가 될 때까지 반복 → 명세(spec) 파일</span></span>
+<span data-line><span>        │                                        (읽기 전용)</span></span>
+<span data-line><span>        ▼</span></span>
+<span data-line><span> (선택) autoresearch ── 웹·데이터로 조사 → 근거 붙은 결론(verdict)        (코드 변경 없음)</span></span>
+<span data-line><span>        │</span></span>
+<span data-line><span>        ▼</span></span>
+<span data-line><span> ② ralplan ── PLANNER 계획 → ARCHITECT 구조 검토 → CRITIC 비판 → 합의까지 반복(기본 최대 5회)</span></span>
+<span data-line><span>        │                                        (읽기 전용)</span></span>
+<span data-line><span>        ▼</span></span>
+<span data-line><span> 승인 게이트 ── 사람이 &quot;Approve execution via ultragoal&quot; 선택</span></span>
+<span data-line><span>        │        또는 gjc.ralplan.autoHandoff = ultragoal 이면 질문 없이 통과 (= 완전 자동, 랄프톤 방식)</span></span>
+<span data-line><span>        ▼</span></span>
+<span data-line><span> ③ ultragoal ── 계획을 목표 G001, G002 … 로 나눔</span></span>
+<span data-line><span>                 목표마다: 구현 → 검증 → 증거 기록(checkpoint)</span></span>
+<span data-line><span>                 마지막 목표에서만 무거운 검토(정리·구조 리뷰·QA) + 최종 CRITIC &quot;OKAY&quot;</span></span></code></pre></figure>
+<h3 id="다섯-하위-시스템으로-보기">다섯 하위 시스템으로 보기<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#다섯-하위-시스템으로-보기" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><a href="../concepts/harness-subsystems" class="internal internal-link alias" data-slug="concepts/harness-subsystems">하네스 5개 하위 시스템</a> 틀로 나누면 이렇다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>하위 시스템</th><th>gjc에서 맡는 것</th><th>왕초보용 한 줄</th></tr></thead><tbody><tr><td>지시</td><td><code>AGENTS.md</code>, 번들 스킬 4개(<code>deep-interview</code>, <code>ralplan</code>, <code>ultragoal</code>, <code>autoresearch</code>), 역할 프롬프트 4개(<code>executor</code>, <code>architect</code>, <code>planner</code>, <code>critic</code>)</td><td>“어떤 순서로 일하라”는 매뉴얼이 처음부터 들어 있다</td></tr><tr><td>도구</td><td>파일 읽기·검색·편집, 셸, LSP, 웹 검색, 하위 에이전트 위임. <code>architect</code>·<code>planner</code>·<code>critic</code>은 읽기 도구와 허용된 <code>git status</code>·<code>git diff</code> 등만 쓴다</td><td>검토하는 역할은 코드를 고칠 수 없게 손을 묶어 둔다</td></tr><tr><td>환경</td><td><code>--worktree</code>(분리된 작업 폴더), <code>--tmux</code>(창을 닫아도 계속 실행), 구독 로그인, 프로바이더 재시도 예산</td><td>원본을 지키는 별도 작업실</td></tr><tr><td>상태</td><td>세션마다 <code>.gjc/_session-&lt;id>/</code> 아래 <code>specs/</code>(인터뷰 명세), <code>plans/ralplan/&lt;run>/</code>(계획 단계별 기록), <code>ultragoal/goals.json</code>(목표 목록), <code>ultragoal/ledger.jsonl</code>(증거 일지)</td><td>어디까지 했는지 파일로 남아서 창을 닫아도 이어진다</td></tr><tr><td>피드백</td><td>모호함 점수 게이트, 합의 게이트(Critic <code>OKAY</code> + Architect 승인), 목표별 <code>quality-gate</code>(실행한 검증 명령과 결과), 마지막 경계 검토와 종료 CRITIC 게이트</td><td>”다 했어요”는 증거 파일이 있어야 인정된다</td></tr></tbody></table></div>
+<h3 id="단계별로-조금-더">단계별로 조금 더<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#단계별로-조금-더" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>① deep-interview — 질문으로 요구 정리</strong></p>
+<ul>
+<li>질문을 하나씩 하고, 답할 때마다 요구가 얼마나 흐릿한지 “모호함 점수”를 매긴다. 점수가 기준(threshold) 아래로 내려가면 명세를 쓴다.</li>
+<li>기준값: 기본 <code>0.05</code>(5%). <code>--quick</code> 0.6, <code>--standard</code> 0.5, <code>--deep</code> 0.35. 첫 줄에 <code>Deep Interview threshold: …</code>를 출력해 어떤 기준으로 도는지 보여 준다.</li>
+<li>명세에는 목표, 제약, 하지 않을 것(Non-Goals), 완료 기준(Acceptance Criteria), 인터뷰 기록이 들어간다.</li>
+</ul>
+<p><strong>② ralplan — 세 역할이 합의할 때까지 계획</strong></p>
+<ul>
+<li>PLANNER가 계획과 요약(원칙 3~5개, 결정 요인 3개, 선택지 2개 이상)을 쓰고, ARCHITECT와 CRITIC이 검토한다(<a href="../concepts/maker-checker-separation" class="internal internal-link alias" data-slug="concepts/maker-checker-separation">일하는 쪽과 확인하는 쪽 분리</a>). CRITIC은 “실행 가능하고 검증 가능한 계획만 승인”하는 읽기 전용 역할이다.</li>
+<li>합의가 안 되면 고쳐서 다시 검토한다. <code>gjc.ralplan.maxIterations</code>(기본 5)를 넘으면 <code>PLANNING-STUCK</code>로 멈추고, 자동 넘김이 켜져 있어도 <strong>실행하지 않는다</strong>.</li>
+<li>계획 기록은 <code>gjc ralplan --write</code>로만 저장된다. 계획 단계에서는 제품 코드 수정, 커밋, 푸시가 코드로 막혀 있다.</li>
+</ul>
+<p><strong>승인 게이트 — 반자동 vs 완전 자동</strong> (<code>raw/gjc-beginner-guide.html</code> 7장)</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th></th><th>반자동(기본값, 왕초보 추천)</th><th>완전 자동(랄프톤 방식)</th></tr></thead><tbody><tr><td>설정</td><td><code>gjc config set gjc.ralplan.autoHandoff off</code></td><td><code>gjc config set gjc.ralplan.autoHandoff ultragoal</code></td></tr><tr><td>계획이 끝나면</td><td>승인 질문이 뜨고 내가 고른다</td><td>질문 없이 바로 ultragoal 시작</td></tr><tr><td>장점</td><td>계획을 보고 고칠 수 있다</td><td>자리를 비워도 끝까지 간다</td></tr><tr><td>단점</td><td>승인할 때 자리에 있어야 한다(폰 알림으로 해결)</td><td>계획이 틀려도 그대로 실행 → 반드시 worktree에서</td></tr></tbody></table></div>
+<p><strong>③ ultragoal — 목표별로 끝까지 실행하고 증거 남기기</strong></p>
+<ul>
+<li>승인된 계획을 <code>@goal:</code> 줄로 나눠 목표 <code>G001</code>, <code>G002</code> …를 만든다. 검증이 서로 묶인 이야기(같은 기능 묶음, 같은 완료 기준)는 한 목표로 합치고, 그 안에서 <code>executor</code>를 여러 개 나눠 돌린다.</li>
+<li>목표 하나가 끝날 때마다 <code>gjc ultragoal checkpoint --status complete --evidence &quot;…&quot; --quality-gate-json …</code>로 <strong>무슨 검증을 돌렸고 통과했는지</strong>를 기록한다. 변경 파일 목록과 해시(<code>changeSetHash</code>)는 git diff에서 자동 계산된다.</li>
+<li>중간 목표는 가벼운 검증만 하고, <strong>마지막 목표(경계)에서 한 번</strong> 무거운 검토를 한다: 코드 정리, <code>architect</code> 구조 리뷰, <code>executor</code> QA를 같은 스냅숏에 동시에 돌리고 결과를 합친다.</li>
+<li>끝낼 때(완료든 일시정지든) 읽기 전용 <code>critic</code>의 <code>OKAY</code>가 있어야 한다.</li>
+<li>막혔을 때: AI가 해결할 수 있는 문제(<code>resolvable</code>: 테스트 실패, 설치 누락 등)면 <strong>멈추지 않고</strong> 계속 시도한다. 사람만 풀 수 있는 문제(<code>human_blocked</code>: 비밀번호, 결제, 승인)일 때만 일시정지할 수 있다. 실행 중에는 질문(ask)도 막혀 있어서, 결정할 일은 막힘 기록으로 남긴다.</li>
+<li>끈기: <code>gjc.ultragoal.nudgeBudget</code>(기본 10)은 목표 하나에서 포기하기 전까지 다시 밀어붙이는 횟수다. “goal 모드”(<code>goal.enabled</code>)가 켜져 있어야 턴이 끝나도 다음 작업으로 이어진다.</li>
+</ul>
+<p><strong>(선택) autoresearch — 조사 전용</strong></p>
+<p>코드를 만들지 않고, 웹 검색과 데이터 실험으로 질문 하나에 대한 결론(<code>status</code>, <code>evidence[]</code>, <code>caveats[]</code>)을 낸다. 보통 deep-interview 다음, ralplan 전에 넣는다.</p>
+<h3 id="계보">계보<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#계보" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>원문(<code>NOTICE.md</code>)상 gjc는 <a href="https://github.com/can1357/oh-my-pi" class="external external-link"><code>oh-my-pi</code><svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>를 “윗줄 계보와 구현 DNA”로 삼고, <code>oh-my-codex</code>와 <code>oh-my-claudecode</code>의 워크플로 실험에서 배운 것을 이어받았다. 그래서 스킬 이름(<code>deep-interview</code>, <code>ralplan</code>, <code>ultragoal</code>)이 <a href="../harness/oh-my-claudecode" class="internal internal-link" data-slug="harness/oh-my-claudecode">oh-my-claudecode</a>와 겹치고, 각 SKILL.md에 “forked from upstream … rebranded for GJC”라고 적혀 있다.</li>
+<li>코스의 <a href="../harness/pi" class="internal internal-link" data-slug="harness/pi">pi</a> 분석 대상(<code>badlogic/pi-mono</code>)과 oh-my-pi는 이름이 비슷하지만, 둘의 관계는 이 위키가 가진 원문(<code>NOTICE.md</code>, 코스 Pi 분석)으로는 확인되지 않는다. 설계 면에서는 둘 다 작은 기본 구성에 스킬·확장을 얹는 쪽이고, gjc는 그 위에 계획·실행 워크플로 4개를 기본으로 묶었다.</li>
+</ul>
+<h3 id="특징-한눈에">특징 한눈에<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#특징-한눈에" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>특징</th><th>왕초보용 설명</th><th>근거</th></tr></thead><tbody><tr><td>독립 실행 프로그램</td><td>Claude Code 같은 다른 도구 없이 <code>gjc</code> 하나만 설치하면 된다. 설치기는 미리 만든 실행 파일이라 Bun·Node도 필요 없다</td><td>README 빠른 시작</td></tr><tr><td>여러 회사 구독을 그대로</td><td>Claude Pro/Max, ChatGPT Plus/Pro(Codex), Cursor, GitHub Copilot, Kimi, Grok 등을 <code>/login</code>으로 연결한다. API 키, 로컬 모델(Ollama 등)도 된다</td><td>README “쓰던 코딩 플랜 그대로”</td></tr><tr><td>역할마다 다른 모델</td><td>계획·검토·구현 역할에 서로 다른 회사 모델을 배정할 수 있다(프리셋으로 한 번에)</td><td>README, 가이드 5장</td></tr><tr><td>기본 기능이 딱 4+4개</td><td>워크플로 스킬 4개, 역할 에이전트 4개만 들어 있다. 디스크의 다른 파일로 교체할 수 없다</td><td>README “변경 전에 계획”</td></tr><tr><td>내가 불러야 움직인다</td><td><code>/skill:…</code>로 명시적으로 불렀을 때만 워크플로가 돈다. 말 속 단어를 보고 알아서 켜지지 않는다</td><td>README “사용자가 명시적으로 선택해 실행”</td></tr><tr><td>계획 중엔 코드를 못 고친다</td><td>인터뷰·계획 단계의 코드 수정·커밋 차단이 프롬프트가 아니라 <strong>프로그램 코드로</strong> 걸려 있다</td><td>ralplan SKILL.md</td></tr><tr><td>증거 일지</td><td>목표마다 무엇을 검증했는지 <code>ledger.jsonl</code>에 남는다. 나중에 사람이 다시 확인할 수 있다</td><td>ultragoal SKILL.md</td></tr><tr><td>폰으로 답하기</td><td>질문·승인 요청을 Telegram/Discord/Slack으로 받아 폰에서 답한다(기본은 꺼짐)</td><td>README “휴대폰으로 답하기”</td></tr><tr><td>토큰 절약</td><td>긴 파일은 구조 요약으로 먼저 보여 주고, 긴 출력은 잘라서 따로 저장한다</td><td>README “토큰을 덜 쓰기”</td></tr><tr><td>한국어 친화</td><td>화면 언어 <code>ui.language ko</code>, 한국어 README·치트시트, 별칭 <code>가재씨</code></td><td>README, 가이드 3장</td></tr></tbody></table></div>
+<h3 id="장점-왕초보-관점">장점 (왕초보 관점)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#장점-왕초보-관점" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><strong>배울 게 적다.</strong> 기억할 흐름이 <code>deep-interview → ralplan → ultragoal</code> 하나다. 스킬이 4개뿐이라 “지금 뭐가 돌고 있지?”를 헷갈릴 일이 적다.</li>
+<li><strong>안전하다.</strong> 계획이 끝나고 승인하기 전에는 코드가 바뀌지 않는다. 계획이 막히면(<code>PLANNING-STUCK</code>) 자동 실행 설정이 켜져 있어도 실행하지 않는다.</li>
+<li><strong>돈을 두 번 내지 않는다.</strong> 이미 내는 월 구독으로 돌린다. 한 회사 구독이 바닥나도 다른 회사 모델로 역할을 나눌 수 있다.</li>
+<li><strong>“다 했어요”를 믿을 수 있다.</strong> 완료는 AI의 말이 아니라 목표별 검증 기록과 마지막 critic의 <code>OKAY</code>로 정해진다.</li>
+<li><strong>끝없이 돌지 않는다.</strong> 목표 하나당 다시 밀어붙이는 횟수가 <code>nudgeBudget</code>(기본 10)으로 정해져 있어 한도를 다 태우는 사고가 적다.</li>
+<li><strong>자리를 비워도 된다.</strong> <code>--tmux</code>로 창을 닫아도 돌고, 막히면 폰으로 알림이 온다.</li>
+</ol>
+<h3 id="단점과-주의할-점">단점과 주의할 점<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#단점과-주의할-점" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li><strong>git이 사실상 필수다.</strong> ultragoal은 변경 범위를 git diff로 계산한다. git을 안 쓰거나 커밋이 하나도 없는 폴더에서는 목표를 “완료”로 기록하지 못한다. 시작 전에 <code>git init</code>과 첫 커밋을 해 둔다.</li>
+<li><strong>처음 설정이 길다.</strong> 로그인, 역할별 모델, 자동 넘김(<code>gjc.ralplan.autoHandoff</code>), goal 모드, 알림을 하나씩 맞춰야 한다. 왕초보 가이드가 13장짜리인 이유다.</li>
+<li><strong>실행 중에는 AI가 질문하지 않는다.</strong> ultragoal이 도는 동안 질문(ask)이 막혀 있다. 애매한 건 “막힘 기록”으로 남기고 계속 간다. 그래서 인터뷰 단계에서 충분히 답해 둬야 한다.</li>
+<li><strong>베타다.</strong> README가 직접 “거친 부분이 있을 수 있다”고 쓴다. 중요한 작업은 결과를 직접 확인한다.</li>
+<li><strong>문서의 버전 함정.</strong> README 설치 예시가 <code>v0.15.3</code>에 고정돼 있다. 그대로 설치하면 최신 모델이 없어 오류가 날 수 있다(가이드 2장). 설치 후 <code>gjc update</code>.</li>
+<li><strong>다른 AI CLI를 팀으로 부리는 기능은 번들에 없다.</strong> 목표 안에서 <code>executor</code>를 여러 개 나눠 돌리는 병렬화는 있지만, OMC의 <code>omc team 2:codex</code>처럼 다른 회사 CLI를 tmux 창마다 띄우는 모드는 없다.</li>
+</ol>
+<h2 id="다른-하네스와의-비교">다른 하네스와의 비교<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#다른-하네스와의-비교" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>항목</th><th><a href="../harness/claude-code" class="internal internal-link alias" data-slug="harness/claude-code">claude-code</a></th><th><a href="../harness/codex" class="internal internal-link alias" data-slug="harness/codex">codex</a></th><th><a href="../harness/deepseek" class="internal internal-link alias" data-slug="harness/deepseek">deepseek</a></th><th><a href="../harness/pi" class="internal internal-link alias" data-slug="harness/pi">pi</a></th><th><a href="../harness/oh-my-claudecode" class="internal internal-link alias" data-slug="harness/oh-my-claudecode">oh-my-claudecode</a></th><th>gajae-code (이 페이지)</th></tr></thead><tbody><tr><td>정체</td><td>Anthropic의 공식 CLI. 단순한 while 루프 + 루프를 둘러싼 시스템</td><td>OpenAI의 오픈소스 Rust 단일 바이너리 CLI. 《Harness Engineering》 글의 배경</td><td><code>dsh</code>, 2026-08 Developer Preview. Agent = Model + Environment + Tools + State, 모든 것이 plugin(Cordis 커널)</td><td>“minimal agent harness”. npm <code>@earendil-works/pi-coding-agent</code>. 작은 커널 + 프로그래밍 가능한 확장</td><td>Claude Code 위에 얹는 플러그인</td><td>독립 실행 CLI 하네스(oh-my-pi 계열)</td></tr><tr><td>지시</td><td><code>CLAUDE.md</code> 4범위(조직/사용자/프로젝트/로컬) + 하위 디렉터리 필요 시 로드 + auto memory(첫 200줄 또는 25KB)</td><td><code>AGENTS.md</code> = 약 100줄 디렉터리 페이지 + <code>docs/</code> 분할, 불변 조건과 검증 명령만</td><td>규칙·스킬을 plugin으로 주입. <code>CLAUDE.md</code> 같은 내장 규약 없음</td><td><code>AGENTS.md</code> 계층 로드(전역 → 상위 디렉터리 → 현재, <code>CLAUDE.md</code> 호환) + <code>SYSTEM.md</code> replace/append</td><td>스킬 48개, 에이전트 19개 + 키워드 자동 감지</td><td>번들 스킬 4개 + 역할 4개만, 명시적으로 부를 때만</td></tr><tr><td>계획 단계</td><td>원문(분석 글)에 서술 없음</td><td>plan mode(고위험 작업 전 계획 작성·승인 요청)</td><td>원문(분석 글)에 서술 없음</td><td>원문(분석 글)에 서술 없음</td><td><code>deep-interview</code>(모호함 ≤20%) → <code>ralplan</code></td><td><code>deep-interview</code>(기본 기준 5%) → <code>ralplan</code>(최대 5회, 코드로 수정 차단)</td></tr><tr><td>실행 루프</td><td>모델 호출 → 도구 실행 → 관찰 반복. <a href="../lectures/lecture-13" class="internal internal-link" data-slug="lectures/lecture-13">lecture-13</a>: <code>/goal</code>, <code>/loop</code>, Routines</td><td>원문(분석 글)에 서술 없음. <a href="../lectures/lecture-13" class="internal internal-link" data-slug="lectures/lecture-13">lecture-13</a>: <code>/goal</code>(수동 활성화), Automations, <code>codex exec</code> + cron</td><td>이벤트 파이프라인(<code>turn/start</code> → … → <code>step/end</code>). agent 루프 자체도 교체 가능한 plugin</td><td>while 루프. TUI 외에 print/JSON 모드·RPC·SDK로 외부 프로그램이 구동</td><td><code>ralph</code>(prd.json 이야기별 반복), <code>autopilot</code>, <code>team</code> 5단계</td><td><code>ultragoal</code>(goals.json 목표별 반복 + goal 모드)</td></tr><tr><td>계속 돌게 하는 장치</td><td><code>Stop</code> hook이 완료 선언 시점에 개입 가능(OMC가 이 지점을 사용)</td><td>원문(분석 글)에 서술 없음. <a href="../lectures/lecture-13" class="internal internal-link" data-slug="lectures/lecture-13">lecture-13</a>: 스레드 자동화·독립 실행형 자동화</td><td><code>agent/turn-stopping</code> 이벤트를 받아 추론 계속 여부 결정</td><td>hooks로 외부(파일 감시·Webhook·CI)에서 메시지를 넣어 agent를 깨움</td><td>Stop 훅(<code>persistent-mode</code>)이 턴 종료를 막음, 안전 상한 기본 500회</td><td>goal 모드 연속 실행 + <code>nudgeBudget</code>(목표당 기본 10회)</td></tr><tr><td>상태</td><td>append-only <code>history.jsonl</code> + <code>/resume</code>·fork + 5단계 compaction</td><td>Write 전략(상태를 파일·문서에) + 자동·수동 <code>/compact</code>(<code>compact_prompt</code> 설정)</td><td>append-only Session Event Log</td><td>session 트리(<code>/tree</code>, 한 파일에 모든 브랜치) + 교체 가능한 compaction(최근 약 2만 token 유지)</td><td><code>.omc/state/sessions/&lt;id>/prd.json</code>, <code>progress.txt</code></td><td><code>.gjc/_session-&lt;id>/ultragoal/goals.json</code>, <code>ledger.jsonl</code></td></tr><tr><td>피드백</td><td>permissions 7모드 + ML 분류기, <code>PostToolUse</code> hook 강제 검사</td><td>검증 명령을 <code>AGENTS.md</code> 규약에, 작업마다 git worktree + 로그·메트릭·트레이스로 검증</td><td><code>tools/pre-execute</code>의 permission·guard·policy·hook + “Model-visible means logged” 런타임 불변 조건</td><td>강제 테스트 gate 없음. 검증 명령은 사용자가 <code>AGENTS.md</code>에. 커뮤니티 확장 session-summary·extract-patterns·telemetry</td><td><code>omc ralph verify</code>가 기준선 대비 새 실패만 판정, 리뷰어 검증</td><td>목표별 quality-gate + 마지막 경계 검토 + 종료 critic <code>OKAY</code></td></tr><tr><td>역할 분리</td><td>subagent 대화를 별도 sidechain 파일로 격리</td><td><code>spawn_agent</code>/<code>wait_agent</code> subagent, <code>.codex/agents/*.toml</code>로 모델·지시 지정</td><td>SubAgent도 교체 가능한 능력 접합부(capability seam)</td><td>원문(분석 글)에 서술 없음</td><td>단계별로 다른 에이전트·모델 등급(haiku/sonnet/opus)</td><td>읽기 전용 planner·architect·critic vs 쓰기 가능한 executor</td></tr><tr><td>사람 개입</td><td>permissions 정책에 따라 고위험 작업은 질문 또는 거부</td><td>승인 정책(approval policies) + plan mode</td><td>원문(분석 글)에 서술 없음</td><td>hooks로 위험 명령 가로채기(permissions gate)·경로 보호</td><td>매직 키워드만 말하면 자동 진행</td><td>기본은 계획 승인 1회. <code>autoHandoff=ultragoal</code>이면 0회</td></tr><tr><td>왕초보에게</td><td>기본 내장이 많아 바로 쓴다. 확장 4종(스킬·MCP·hooks·subagent)의 역할 구분은 배워야 한다</td><td>기능보다 규약. 저장소를 잘 정리해 둘수록 효과가 커진다</td><td>자유도가 가장 높지만 설정 비용도 가장 크다. 아직 Developer Preview</td><td>가장 가볍지만 필요한 장치는 직접 만들거나 패키지로 설치해야 한다</td><td>기능이 많아 강력하지만 무겁다</td><td>흐름이 하나라 배우기 쉽다. 대신 git 필수</td></tr></tbody></table></div>
+<h3 id="무엇을-고를까-왕초보용">무엇을 고를까 (왕초보용)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#무엇을-고를까-왕초보용" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>이런 상황이면</th><th>추천</th><th>이유</th></tr></thead><tbody><tr><td>Claude Code를 이미 매일 쓰고, 큰 일을 여러 에이전트로 나눠 오래 돌리고 싶다</td><td><a href="../harness/oh-my-claudecode" class="internal internal-link alias" data-slug="harness/oh-my-claudecode">OMC</a></td><td>Claude Code 위에 얹기만 하면 되고, <code>team</code>·<code>autopilot</code>이 병렬·장시간 실행에 맞춰져 있다</td></tr><tr><td>ChatGPT·Gemini·GLM 등 Claude 말고 다른 구독도 쓰고 싶다</td><td>gjc</td><td><code>/login</code>으로 여러 회사 구독을 연결하고 역할마다 섞을 수 있다</td></tr><tr><td>처음이라 무엇이 돌고 있는지 하나하나 보면서 배우고 싶다</td><td>gjc</td><td>흐름이 하나이고, 승인 전에는 코드가 바뀌지 않는다</td></tr><tr><td>”말만 하면 알아서”가 제일 중요하다</td><td>OMC</td><td><code>autopilot: …</code>처럼 키워드만 말하면 끝까지 자동 진행한다</td></tr><tr><td>git을 아직 모른다</td><td>git부터 익히기</td><td>gjc는 git 없이는 완료 기록이 안 된다. OMC는 git을 필수로 적지 않지만, ralph의 완료 자동 대조(<code>gitGrep</code>)와 git 안전 훅(<code>git-guardrails</code>)이 git을 전제로 한다</td></tr></tbody></table></div>
+<h2 id="원문-경로">원문 경로<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#원문-경로" class="internal internal-link"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ul>
+<li>ko: <code>raw/gajae-code/README.ko.md</code> (영어 README가 기준이라고 명시)</li>
+<li>en: <code>raw/gajae-code/README.md</code></li>
+<li>스킬: <code>raw/gajae-code/packages/coding-agent/src/defaults/gjc/skills/{deep-interview,ralplan,ultragoal,autoresearch}/SKILL.md</code></li>
+<li>역할: <code>raw/gajae-code/packages/coding-agent/src/prompts/agents/{executor,architect,planner,critic}.md</code></li>
+<li>계보: <code>raw/gajae-code/NOTICE.md</code></li>
+<li>왕초보 가이드(사용자 작성, gjc 0.19.3 기준): <code>raw/gjc-beginner-guide.html</code></li>
+<li>스냅숏: 커밋 <code>d4ecb353a21528c0df07fc36239ea648eecab357</code>(2026-11-03), 패키지 버전 0.19.3</li>
+</ul>
+<p><strong>원문 간 차이</strong></p>
+<ul>
+<li>README(ko·en)의 설치 예시는 <code>v0.15.3</code>에 고정돼 있다. 왕초보 가이드는 이 버전으로 설치하면 Claude 5.5 모델이 없어 서비스 종료된 <code>claude-3-5-sonnet-20240620</code>으로 시작해 404 오류가 난다고 기록한다. 스냅숏의 실제 버전은 0.19.3이다.</li>
+<li>왕초보 가이드는 역할을 DEFAULT 포함 5개로 설명한다. 번들 역할 에이전트 파일은 4개(<code>executor</code>, <code>architect</code>, <code>planner</code>, <code>critic</code>)이고, DEFAULT는 대화 상대(메인 세션)의 모델 설정이다.</li>
+</ul></div></article><hr/><div class="page-footer"></div></div><div class="right sidebar"><div class="graph"><h3>그래프 뷰</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="toc"><button type="button" class="toc-header" aria-controls="toc-24" aria-expanded="true"><h3>목차</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><ul id="list-0" class="toc-content overflow"><li class="depth-0"><a href="#gajae-codegjc-계획-먼저-증거로-끝내는-가벼운-랄프톤-하네스" data-for="gajae-codegjc-계획-먼저-증거로-끝내는-가벼운-랄프톤-하네스">Gajae-Code(gjc): 계획 먼저, 증거로 끝내는 가벼운 랄프톤 하네스</a></li><li class="depth-1"><a href="#왕초보-설명" data-for="왕초보-설명">왕초보 설명</a></li><li class="depth-1"><a href="#구조-요약" data-for="구조-요약">구조 요약</a></li><li class="depth-2"><a href="#한-장-그림" data-for="한-장-그림">한 장 그림</a></li><li class="depth-2"><a href="#다섯-하위-시스템으로-보기" data-for="다섯-하위-시스템으로-보기">다섯 하위 시스템으로 보기</a></li><li class="depth-2"><a href="#단계별로-조금-더" data-for="단계별로-조금-더">단계별로 조금 더</a></li><li class="depth-2"><a href="#계보" data-for="계보">계보</a></li><li class="depth-2"><a href="#특징-한눈에" data-for="특징-한눈에">특징 한눈에</a></li><li class="depth-2"><a href="#장점-왕초보-관점" data-for="장점-왕초보-관점">장점 (왕초보 관점)</a></li><li class="depth-2"><a href="#단점과-주의할-점" data-for="단점과-주의할-점">단점과 주의할 점</a></li><li class="depth-1"><a href="#다른-하네스와의-비교" data-for="다른-하네스와의-비교">다른 하네스와의 비교</a></li><li class="depth-2"><a href="#무엇을-고를까-왕초보용" data-for="무엇을-고를까-왕초보용">무엇을 고를까 (왕초보용)</a></li><li class="depth-1"><a href="#원문-경로" data-for="원문-경로">원문 경로</a></li><li class="overflow-end"></li></ul></div><div class="backlinks"><h3>백링크</h3><ul id="list-0" class="overflow"><li><a href="../concepts/continuity-artifacts" class="internal">연속성 산출물(세션 인계 파일)</a></li><li><a href="../concepts/feature-list" class="internal">기능 목록(하네스 프리미티브)</a></li><li><a href="../concepts/harness-subsystems" class="internal">하네스 5개 하위 시스템</a></li><li><a href="../concepts/maker-checker-separation" class="internal">일하는 쪽과 확인하는 쪽 분리</a></li><li><a href="../concepts/one-feature-at-a-time" class="internal">한 번에 기능 하나(WIP=1)</a></li><li><a href="../concepts/progressive-disclosure" class="internal">점진적 공개</a></li><li><a href="../concepts/ralph-loop" class="internal">Ralph 루프(랄프톤식 자동 실행)</a></li><li><a href="../concepts/repo-system-of-record" class="internal">저장소가 기록의 원천(System of Record)</a></li><li><a href="../concepts/verification-commands" class="internal">검증 명령어</a></li><li><a href="../harness/claude-code" class="internal">Claude Code의 하네스 설계: 계층형 메모리·5단계 compaction·hooks</a></li><li><a href="../harness/codex" class="internal">Codex의 하네스 설계: 저장소가 사실의 원천, AGENTS.md는 디렉터리 페이지</a></li><li><a href="../harness/deepseek" class="internal">DeepSeek Harness의 설계: 모든 것이 plugin, 모델이 본 것은 모두 기록</a></li><li><a href="../harness/oh-my-claudecode" class="internal">oh-my-claudecode(OMC): Claude Code 위에 얹는 무거운 멀티 에이전트 랄프톤 하네스</a></li><li><a href="../harness/pi" class="internal">Pi의 하네스 설계: 극도로 단순한 커널 + 프로그래밍 가능한 확장</a></li><li><a href="../" class="internal">목차</a></li><li><a href="../lectures/lecture-03" class="internal">강의 03. 저장소를 단일 진실 원천으로 만들어라</a></li><li><a href="../lectures/lecture-04" class="internal">강의 04. 명령 파일을 여러 파일로 분산하라</a></li><li><a href="../lectures/lecture-05" class="internal">강의 05. 세션을 넘어 컨텍스트를 살아있게 유지하라</a></li><li><a href="../lectures/lecture-06" class="internal">강의 06. 모든 에이전트 세션 전에 초기화하라</a></li><li><a href="../lectures/lecture-07" class="internal">강의 07. 에이전트에게 명확한 작업 경계를 그어 주어야 합니다</a></li><li><a href="../lectures/lecture-08" class="internal">강의 08. 기능 목록으로 에이전트의 행동을 제약하십시오</a></li><li><a href="../lectures/lecture-09" class="internal">강의 09. 에이전트가 너무 일찍 완료를 선언하지 못하도록 방지하기</a></li><li><a href="../lectures/lecture-10" class="internal">강의 10. 엔드투엔드 테스트만이 진정한 검증이다</a></li><li><a href="../lectures/lecture-11" class="internal">강의 11. 에이전트의 런타임을 관측 가능하게 만들어라</a></li><li><a href="../lectures/lecture-12" class="internal">강의 12. 모든 세션은 클린 상태(clean state)로 끝나야 한다</a></li><li><a href="../lectures/lecture-13" class="internal">13강. 수동 프롬프팅에서 자율 루프로</a></li><li><a href="../lectures/lecture-14" class="internal">14강. 단일 루프에서 그래프 엔지니어링으로</a></li><li><a href="../log" class="internal">로그</a></li><li><a href="../overview" class="internal">개요</a></li><li class="overflow-end"></li></ul></div></div><footer class><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v5.0.0</a> © 2026</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></div></body><script src="../static/resource-after-e13fffa1.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-8b336f9a.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-baba652b.js" type="application/javascript" data-persist="true"></script><script src="../static/resource-after-5eb75950.js" type="module" data-persist="true"></script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript-551b937a.js" type="module" data-persist="true"></script></html>
